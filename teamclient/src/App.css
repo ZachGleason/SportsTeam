@@ -44,6 +44,30 @@
 
 .stats {
   height: 800px;
-  width: 500px;
+  width: 550px;
   overflow: scroll;
+}
+
+.playing {
+  background-color: lightgreen !important;
+  color: white;
+  font-weight: bold;
+  padding: 0.45rem;
+}
+.not-playing {
+  background-color: rgb(220, 155, 155) !important;
+  color: white;
+  font-weight: bold;
+  padding: 0.45rem;
+}
+.undecided {
+  background-color: rgb(214, 214, 131) !important;
+  font-weight: bold;
+  padding: 0.45rem;
+}
+.status-player {
+  width: 100px;
+  background-color: white !important;
+  color: black;
+  margin: 0 1rem;
 }

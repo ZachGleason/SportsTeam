@@ -14,6 +14,7 @@ const findOneSinglePlayer = (req, res) => {
     Team.findOne({ _id: req.params.id })
         .then(oneSinglePlayer => {
             res.json({ Team: oneSinglePlayer })
+            // remove "Team: causing issues with obj"
         })
         .catch((err) => {
             res.json({ message: 'Something went wrong', error: err })

@@ -1,5 +1,7 @@
 const TeamController = require('../controllers/team.controller');
 
+// Make sure to add /api on all routes for backend!
+
 module.exports = (app) => {
     app.get('/players/list', TeamController.findAllPlayers);
     app.get('/player/:id', TeamController.findOneSinglePlayer);

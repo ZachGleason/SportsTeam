@@ -1,8 +1,16 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const TeamSchema = new mongoose.Schema({
+const TeamSchema = new mongoose.Schema(
+  {
     name: { type: String },
     position: { type: String },
-}, { timestamps: true });
+    status: {
+      type: String,
+      enum: ["Playing", "Not Playing", "Undecided"],
+      default: "Undecided",
+    },
+  },
+  { timestamps: true }
+);
 
-module.exports = mongoose.model('Team', TeamSchema);
+module.exports = mongoose.model("Team", TeamSchema);

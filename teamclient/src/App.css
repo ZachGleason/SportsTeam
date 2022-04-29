@@ -1,0 +1,49 @@
+.add {
+  text-decoration: none;
+  color: black;
+
+}
+
+.status {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  text-decoration: none;
+  color: black;
+}
+
+.adding {
+  width: 380px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black ;
+  border-radius: 20px;
+  margin-top: 140px;
+}
+
+.addtext {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.direct {
+  text-decoration: none;
+  color: black;
+}
+
+
+.tables {
+  height: 800px;
+  width: 500px;
+  overflow: scroll;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.stats {
+  height: 800px;
+  width: 500px;
+  overflow: scroll;
+}
